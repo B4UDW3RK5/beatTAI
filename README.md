@@ -5,8 +5,9 @@
 ▄    ▄  ▄ ▀ ▀     ▄ ▀ ▀ ▄  ▄          ▄      ▄     ▄    ▄
 ▄ ▄ ▄     ▄ ▄ ▄     ▄ ▄ ▄    ▄ ▄      ▄      ▄     ▄  ▄ ▄ ▄
 
+ -:[ a new Internet time for turbonerds & superweirdos ]:-
 
-[Abstract]
+Abstract
 
     In 1998 Swatch introduced <a href="https://en.wikipedia.org/wiki/Swatch_Internet_Time">Swatch Internet Time</a> (or .beat time), displayed as
  @xxx.xx (for example @198.26). It's a cute and fun way to display the time and
@@ -22,14 +23,14 @@
  beatTAI or .tai for short.
 
 
-[Format]
+Format
 
     In line with Swatch .beat time, .tai is a day divided into 1000 and
  represented as @xxx.xx - though perhaps a character other than @ should be
  used? @ is pretty played out. Answers on a postcard.
 
 
-[Math]
+Math
 
    ((TAIminutes * 60) + (TAIhours * 3600)) / 86.4
 </pre>
