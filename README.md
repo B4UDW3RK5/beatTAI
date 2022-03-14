@@ -1,4 +1,11 @@
 <pre>
+▄                          ▄      ▄ ▄ ▄ ▄ ▄    ▄ ▄    ▄ ▄ ▄
+▄ ▄ ▄     ▄ ▄     ▄ ▄ ▄    ▄ ▄ ▄      ▄      ▄     ▄    ▄
+▄    ▄  ▄     ▄         ▄  ▄          ▄      ▄ ▄ ▄ ▄    ▄
+▄    ▄  ▄ ▀ ▀     ▄ ▀ ▀ ▄  ▄          ▄      ▄     ▄    ▄
+▄ ▄ ▄     ▄ ▄ ▄     ▄ ▄ ▄    ▄ ▄      ▄      ▄     ▄  ▄ ▄ ▄
+
+
 [Abstract]
 
     In 1998 Swatch introduced <a href="https://en.wikipedia.org/wiki/Swatch_Internet_Time">Swatch Internet Time</a> (or .beat time), displayed as
