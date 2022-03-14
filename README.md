@@ -26,8 +26,7 @@ Abstract
 Format
 
     In line with Swatch .beat time, .tai is a day divided into 1000 and
- represented as @xxx.xx - though perhaps a character other than @ should be
- used? @ is pretty played out. Answers on a postcard.
+ represented as :xxx.xx
 
 
 Math
