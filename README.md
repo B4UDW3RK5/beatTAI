@@ -32,4 +32,10 @@
 [Math]
 
    ((TAIhours * 3600) + (TAIminutes * 60) + TAIseconds) / 86.4
+
+
+[Etc]
+
+i9w   a beatTAI clock written in C
+gbt   a beatTAI clock written in Go
 </pre>
