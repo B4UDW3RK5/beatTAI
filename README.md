@@ -31,5 +31,5 @@
 
 [Math]
 
-   ((TAIminutes * 60) + (TAIhours * 3600) + TAIseconds) / 86.4
+   ((TAIhours * 3600) + (TAIminutes * 60) + TAIseconds) / 86.4
 </pre>
