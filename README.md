@@ -36,6 +36,6 @@
 
 [Etc]
 
-i9w   a beatTAI clock written in C
-gbt   a beatTAI clock written in Go
+   <b>i9w</b> is a beatTAI clock written in C
+   <b>gbt</b> is a beatTAI clock written in Go
 </pre>
