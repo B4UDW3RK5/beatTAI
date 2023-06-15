@@ -36,6 +36,6 @@
 
 [Etc]
 
-   <b>i9w</b> is a beatTAI clock written in C
-   <b>gbt</b> is a beatTAI clock written in Go
+   <a href="https://github.com/B4UDW3RK5/beatTAI/tree/main/i9w">i9w</a> is a beatTAI clock written in C
+   <a href="https://github.com/B4UDW3RK5/beatTAI/tree/main/gbt">gbt</a> is a beatTAI clock written in Go
 </pre>
