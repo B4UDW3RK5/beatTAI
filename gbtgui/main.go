@@ -27,9 +27,8 @@ import (
 	"time"
 
 	"github.com/andlabs/ui"
+	"github.com/brandondube/tai"
 )
-
-var leapSeconds int = 37
 
 func main() {
 	err := ui.Main(func() {
@@ -63,12 +62,11 @@ func main() {
 }
 
 func timeInTaiString(local time.Time) string {
-	utc := local.UTC()
-
-	hourSeconds := utc.Hour() * 3600
-	minuteSeconds := utc.Minute() * 60
-	seconds := utc.Second()
-	beatTai := float64((hourSeconds + minuteSeconds + seconds + leapSeconds)) / 86.4
+	g := tai.FromTime(local).AsGregorian()
+	hourSeconds := g.Hour * 3600
+	minuteSeconds := g.Min * 60
+	seconds := g.Sec
+	beatTai := float64(hourSeconds+minuteSeconds+seconds) / 86.4
 
 	return fmt.Sprintf("@%06.2f (%02d:%02d:%02d)", beatTai, local.Hour(), local.Minute(), local.Second())
 }
